@@ -1,0 +1,163 @@
+@font-face{
+    font-family: NinoMtavruli;
+    src: url(/Fonts/bpg_nino_mtavruli_bold.ttf);
+}
+.ff{
+    font-family:NinoMtavruli;
+    font-size:large;
+}
+.ff2{
+    font-size:larger;
+    font-family:NinoMtavruli;
+}
+#JoinBtn:hover{
+    transform: scale(1.2);
+}
+#JoinBtn{
+    font-size: larger;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+#GtAcademyLabel{
+    transition: 0.2s;
+}
+#GtAcademyLabel:hover{
+    transform: scale(1.2);
+    cursor:default;
+}
+#navstyle{
+    background: linear-gradient(180deg,#8d600a,#ae882d 100%);
+}
+#intro{
+    background: rgb(130,48,178);
+    background: linear-gradient(180deg, #8d600a 0%, #ae882d 100%);
+    padding: 2%;
+}
+body{
+    width: 100%;
+    margin:auto;
+    overflow-x: hidden;
+    height:auto;
+    background: rgb(130,48,178);
+    background: linear-gradient(180deg, #694207 0%, #d4a853 100%);
+    background-repeat: no-repeat;
+}
+#Logo{
+    height: 50px;
+    width: 50px;
+    transition: 0.3s;
+}
+#Logo:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+#logoa{
+    transition: 0.3s;
+}
+#logoa:hover{
+    transform: scale(1.1);
+    cursor:default;
+    color: 	#694207!important;
+    cursor:pointer;
+}
+#labelanim:hover{
+    transform: scale(1.1);
+    cursor:default;
+}
+#labelanim{
+    transition: 0.4s;
+}
+.nav-link:hover{
+    color: 	#694207!important;
+    transform: scale(1.2);
+    cursor:pointer;
+}
+.nav-link{
+    color: 	#362904;
+    transition: 0.2s;
+}
+#VideoBord{
+    border: dotted 5px #362904;
+}
+footer{
+    color: white;
+    background-color: 		#8d600a;
+}
+#divElement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+.yf{
+    transition: 0.4s;
+}
+.yf:hover{
+    transform: scale(1.1);
+    cursor:default;
+}
+
+#marketing{
+    
+    margin-top: 20px;
+    font-size:50px;
+}
+#marketing2{
+    border: solid 2px black;
+}
+#delsh{
+    color: red;
+}
+.mgn{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:1200px){
+    #divElement{
+        transform: translate(-44.8%, -50%)!important;
+    }
+}
+@media only screen and (max-width:990px){
+    #divElement{
+        margin-top: 600px!important;
+        transform: translate(-44%, -50%)!important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #divElement {
+        transform: translate(-35%, -50%)!important;
+    }
+}
+@media only screen and (max-width: 700px) {
+    #divElement {
+        margin-top: 800px!important;
+        width: 60%!important;
+        height: 30%!important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    
+    #VideoBord {
+      width: 200px;
+      height: 200px;
+    }
+    #divElement {
+        margin-top: 1500px!important;
+    } 
+}
+@media only screen and (max-width: 300px) {
+    
+    #VideoBord {
+      width: 200px;
+      height: 200px;
+    }
+    #divElement {
+        margin-top: 2000px!important;
+        width: 90%!important;
+        height: 30%!important;
+        transform: translate(-30%, -50%)!important;
+    } 
+}
