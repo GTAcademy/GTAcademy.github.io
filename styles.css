@@ -134,7 +134,7 @@ footer{
 }
 @media only screen and (max-width: 700px) {
     #divElement {
-        margin-top: 800px!important;
+        margin-top: 200px!important;
         width: 60%!important;
         height: 30%!important;
     }
@@ -149,7 +149,7 @@ footer{
       height: 200px;
     }
     #divElement {
-        margin-top: 900px!important;
+        margin-top: 300px!important;
     } 
 }
 @media only screen and (max-width: 300px) {
@@ -159,7 +159,7 @@ footer{
       height: 200px;
     }
     #divElement {
-        margin-top: 1200px!important;
+        margin-top: 500px!important;
         width: 90%!important;
         height: 30%!important;
         transform: translate(-30%, -50%)!important;
