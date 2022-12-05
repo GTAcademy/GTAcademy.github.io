@@ -97,7 +97,9 @@ footer{
     height: 100px;
 }
 .yf{
+    margin-left: 10px;
     transition: 0.4s;
+    padding: 20px;
 }
 .yf:hover{
     transform: scale(1.1);
